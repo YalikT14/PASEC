@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Portafolio PASEC | Yalik Tapuy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">E-Portafolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#producto">Producto 6</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ciudadania">Ciudadanía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#valores">Valores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#compromisos">Compromisos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videocarta">Videocarta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+      <div class="container text-center text-white">
+        <p class="hero-tag fade-in">PASEC · USFQ · 2026</p>
+        <h1 class="display-3 fw-bold fade-in delay-1">
+          E-Portafolio de Ciudadanía
+        </h1>
+        <p class="lead fade-in delay-2">
+          Yalik Tapuy · Medios Interactivos ·
+          <span class="highlight">TEO Animal Hope</span>
+        </p>
+        <a href="#producto" class="btn btn-outline-light btn-lg mt-3 fade-in delay-3">
+          Explorar <i class="bi bi-arrow-down ms-2"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- CARRUSEL 1 -->
+    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores (puntos) — opcional -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Foto 1 -->
+            <div class="carousel-item active">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/1.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/1.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Paseo con los perritos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/2.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/2.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Paseo con los perritos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/3.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/3.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Paseo con los perritos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SECCIÓN 1: PRODUCTO 6 -->
+    <section id="producto" class="section-block">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Producto 6</span>
+          <h2>Discriminación y Género</h2>
+          <p class="text-muted">Actividad realizada el 08/07/2026</p>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <div class="col-md-6 reveal">
+            <div class="card-custom h-100">
+              <div class="card-icon"><i class="bi bi-people-fill"></i></div>
+              <h4>Producto mejorado</h4>
+              <p>
+                Durante la actividad analizamos diferentes situaciones
+                relacionadas con el género, la condición económica, la etnia,
+                la educación y las creencias. A través de una dinámica grupal
+                identificamos que no todas las personas parten de las mismas
+                oportunidades y que muchas veces existen privilegios que pasan
+                desapercibidos para quienes los poseen.
+              </p>
+              <p>
+                La actividad también nos llevó a reconocer que la discriminación
+                no siempre es evidente o intencional, sino que muchas veces está
+                presente en estructuras sociales, estereotipos y prejuicios
+                normalizados.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 reveal delay-1">
+            <div class="card-custom h-100">
+              <div class="card-icon"><i class="bi bi-lightbulb-fill"></i></div>
+              <h4>Reflexión personal</h4>
+              <p>
+                De todas las actividades realizadas, la de Discriminación y
+                Género fue una de las que más impactó mi forma de pensar. Antes
+                entendía la discriminación como un problema que afectaba solo a
+                ciertos grupos; la dinámica me permitió comprender que todos
+                vivimos realidades distintas influenciadas por factores que
+                muchas veces no dependen de nosotros.
+              </p>
+              <p>
+                Como estudiante de Medios Interactivos, entendí que los
+                productos digitales pueden contribuir a reducir la
+                discriminación y promover una sociedad más inclusiva.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL 2 -->
+    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores (puntos) — opcional -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Foto 1 -->
+            <div class="carousel-item active">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/4.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/4.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Perrito de la Fundación</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/5.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/5.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Nido de pájaros en Puembo</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/6.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/6.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Vista en camino a la Fundación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SECCIÓN 2: CIUDADANÍA RESPONSABLE -->
+    <section id="ciudadania" class="section-block section-alt">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Reflexión</span>
+          <h2>Ciudadanía Responsable</h2>
+        </div>
+
+        <div class="row g-4 mt-3 align-items-stretch">
+          <div class="col-md-5 reveal">
+            <div class="card-custom definition-card h-100">
+              <h5 class="mb-3">
+                <i class="bi bi-bookmark-star-fill me-2 accent"></i>
+                Mi definición actual
+              </h5>
+              <blockquote>
+                "La ciudadanía responsable consiste en participar activamente en
+                la construcción de una sociedad más justa, solidaria y
+                sostenible mediante acciones cotidianas que beneficien tanto a
+                las personas como al ambiente."
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-7 reveal delay-1">
+            <div class="card-custom h-100">
+              <h5 class="mb-3">
+                <i class="bi bi-arrow-left-right me-2 accent"></i>
+                Evolución del concepto
+              </h5>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="timeline-label">Antes</span>
+                  <p>
+                    Definía la ciudadanía como el cumplimiento de derechos y
+                    deberes para contribuir al bienestar colectivo, basándome
+                    en la Constitución del Ecuador y la UNESCO.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-label after-label">Ahora</span>
+                  <p>
+                    Entiendo que implica también empatía, acción voluntaria y
+                    compromiso real con las necesidades de la comunidad.
+                    Pequeñas acciones sostenidas generan un impacto colectivo
+                    verdadero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL 3 -->
+    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores (puntos) — opcional -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Foto 1 -->
+            <div class="carousel-item active">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/7.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/7.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Vista en camino a la Fundación</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/8.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/8.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Vista en camino a la Fundación</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/9.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/9.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Vista dentro de la Fundación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SECCIÓN 3: VALORES -->
+    <section id="valores" class="section-block">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Valores</span>
+          <h2>Tres valores que guían mi acción ciudadana</h2>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <div class="col-md-4 reveal">
+            <div class="valor-card h-100">
+              <div class="valor-icon">
+                <i class="bi bi-heart-fill"></i>
+              </div>
+              <h4>Empatía</h4>
+              <p class="por-que">
+                <strong>¿Por qué es importante?</strong><br />
+                Permite comprender las necesidades de otras personas y actuar
+                sin prejuicios.
+              </p>
+              <p>
+                <strong>¿Cómo lo apliqué?</strong><br />
+                Comprendí las historias detrás del abandono animal y colaboré
+                respetando el trabajo de los demás voluntarios.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal delay-1">
+            <div class="valor-card h-100">
+              <div class="valor-icon responsabilidad">
+                <i class="bi bi-check-circle-fill"></i>
+              </div>
+              <h4>Responsabilidad</h4>
+              <p class="por-que">
+                <strong>¿Por qué es importante?</strong><br />
+                Ayuda a cumplir compromisos que benefician al bienestar
+                colectivo.
+              </p>
+              <p>
+                <strong>¿Cómo lo apliqué?</strong><br />
+                Cumplí las tareas asignadas, limpié los espacios de los perros
+                y participé activamente en su cuidado.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal delay-2">
+            <div class="valor-card h-100">
+              <div class="valor-icon solidaridad">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+              </div>
+              <h4>Solidaridad</h4>
+              <p class="por-que">
+                <strong>¿Por qué es importante?</strong><br />
+                Promueve el trabajo conjunto para resolver problemas sociales.
+              </p>
+              <p>
+                <strong>¿Cómo lo apliqué?</strong><br />
+                Apoyé las actividades de la fundación entendiendo que el rescate
+                animal requiere el esfuerzo de muchas personas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL 4 -->
+    <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores (puntos) — opcional -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Foto 1 -->
+            <div class="carousel-item active">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/10.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/10.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Vista dentro de la Fundación</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/11.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/11.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Reparación de instalaciones</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="carousel-item">
+                <div class="carousel-item-wrapper">
+
+                    <!-- Fondo blur (siempre cover) -->
+                    <img
+                    src="fotos/12.jpg"
+                    class="carousel-bg-blur"
+                    alt=""
+                    aria-hidden="true"
+                    />
+
+                    <!-- Imagen principal (cover u contain según JS) -->
+                    <img
+                    src="fotos/12.jpg"
+                    class="d-block carousel-img"
+                    alt="Voluntariado en TEO Animal Hope"
+                    />
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <p>Compañeros de voluntariado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SECCIÓN 4: COMPROMISOS -->
+    <section id="compromisos" class="section-block section-alt">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Compromisos</span>
+          <h2>Compromisos personales</h2>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <!-- Estudiante -->
+          <div class="col-md-6 reveal">
+            <div class="card-custom compromiso-card h-100">
+              <div class="compromiso-header">
+                <i class="bi bi-mortarboard-fill"></i>
+                <h4>Como estudiante</h4>
+              </div>
+              <div class="compromiso-item">
+                <span class="comp-label">Compromiso</span>
+                <p>
+                  Mantener una participación activa en proyectos sociales
+                  relacionados con el bienestar animal y la comunidad.
+                </p>
+              </div>
+              <div class="compromiso-item">
+                <span class="comp-label">Indicador</span>
+                <p>
+                  Participar al menos en dos actividades de voluntariado cada
+                  semestre.
+                </p>
+              </div>
+              <ul class="action-list">
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Continuar colaborando con TEO Animal Hope
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Participar en campañas de adopción
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Difundir información sobre tenencia responsable
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Motivar a otros estudiantes a realizar voluntariado
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Profesional -->
+          <div class="col-md-6 reveal delay-1">
+            <div class="card-custom compromiso-card h-100">
+              <div class="compromiso-header professional">
+                <i class="bi bi-laptop-fill"></i>
+                <h4 class="colorp">Como futuro profesional</h4>
+              </div>
+              <div class="compromiso-item">
+                <span class="comp-label">Compromiso</span>
+                <p>
+                  Utilizar mis conocimientos en Medios Interactivos para apoyar
+                  causas sociales.
+                </p>
+              </div>
+              <div class="compromiso-item">
+                <span class="comp-label">Indicador</span>
+                <p>
+                  Participar cada año en al menos un proyecto de impacto social
+                  utilizando herramientas digitales.
+                </p>
+              </div>
+              <ul class="action-list">
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Diseñar campañas de comunicación para organizaciones sociales
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Crear contenido audiovisual educativo
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Desarrollar herramientas digitales comunitarias
+                </li>
+                <li>
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                  Formación constante en comunicación con enfoque social
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: VIDEOCARTA -->
+    <section id="videocarta" class="section-block">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Storytelling</span>
+          <h2>Videocarta</h2>
+          <p class="text-muted">Para Yalik Tapuy, diez años después</p>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-8 reveal">
+            <!-- Placeholder de video -->
+            <div class="video-placeholder">
+              <i class="bi bi-play-circle-fill"></i>
+              <p>Video próximamente</p>
+              <span>Videocarta · PASEC 2026</span>
+            </div>
+          </div>
+
+          <div class="col-md-8 mt-4 reveal delay-1">
+            <div class="card-custom script-card">
+              <h5>
+                <i class="bi bi-chat-quote-fill me-2 accent"></i>
+                Fragmento del guion
+              </h5>
+              <blockquote class="script-quote">
+                "Si en algún momento el trabajo o las responsabilidades hacen
+                que olvides por qué elegiste este camino, recuerda a todos esos
+                perros que encontraron una segunda oportunidad gracias al
+                esfuerzo de muchas personas. Que esa imagen te recuerde que el
+                verdadero éxito no se mide únicamente por los logros
+                profesionales, sino también por el impacto positivo que dejas
+                en los demás."
+              </blockquote>
+              <p class="script-author">— Yalik Tapuy, 2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section text-center">
+      <div class="container">
+        <p class="mb-1 fw-bold">Yalik Tapuy · Medios Interactivos · USFQ</p>
+        <p class="mb-1 text-muted">
+          Servicio comunitario: <span class="accent">TEO Animal Hope</span>
+        </p>
+        <p class="mb-0 text-muted small">PASEC 2026</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
